@@ -11,7 +11,7 @@ Manual install:
 ```
 mkdir app/code/Dford/Geoip
 cd app/code/Dford/Geoip
-git clone https://github.com/djfordz/geoip.git
+git clone https://github.com/djfordz/geoip.git .
 
 # all modes
 bin/magneto module:enable Dford_Geoip
