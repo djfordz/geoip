@@ -1,5 +1,7 @@
 Test for Trellis.
 
+*NOTE: Since I am using a ViewModel this is not backward compatible, must use Magento V2.2 or above!*
+
 Two ways to install, either install code manually in 
 
 `app/code/Dford/Geoip`
