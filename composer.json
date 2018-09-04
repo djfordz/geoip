@@ -19,15 +19,10 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "extra": {
-        "map": [
-            [
-                "*",
-                "Dford/Geoip"
-            ]
-        ]
-    },
   "autoload": {
-    "files": [ "registration.php" ]
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Dford\\Geoip\\": ""
+    }
   }
 }
