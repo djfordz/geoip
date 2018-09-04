@@ -6,7 +6,8 @@
     {
       "name": "David Ford",
       "email": "djfordz@gmail.com",
-      "homepage": "http://magefoo.com"
+      "homepage": "http://magefoo.com",
+      "role": "developer"
     }
   ],
   "require": {
@@ -18,6 +19,14 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
+  "extra": {
+        "map": [
+            [
+                "*",
+                "Dford/Geoip"
+            ]
+        ]
+    },
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
