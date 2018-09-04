@@ -1,0 +1,29 @@
+<?php
+$viewModel = $block->getViewModel();
+
+// params for getGeoData last|all;
+$geoDataLast = $viewModel->getGeoData(\Dford\Geoip\ViewModel\LoginHistory::GEOIP_LAST);
+?>
+<div class="block block-dashboard-info">
+    <div class="block-title"><strong><?= __('Login History') ?></strong></div>
+    <div class="block-content">
+        <div class="box box-information">
+            <?php if (is_array($geoDataLast)): ?>
+                <strong class="box-title">
+                    <span><?= __('Last Login Info') ?></span>
+                </strong>
+                <div class="box-content">
+                    <p>IP Address: <?= __($geoDataLast['ip_address']) ?></p>
+                    <p>Date: <?= __($geoDataLast['created_at']) ?></p>
+                    <p>User Agent: <br/><?= __($geoDataLast['user_agent']) ?></p>
+                </div>
+            <?php else: ?>
+                <p class="box-title"><?= __($geoDataLast) ?></p>
+            <?php endif; ?>
+            <div class="box-actions">
+                <a href="<?php echo $block->getUrl('geoip') ?>"><?= __('Login History') ?></a>
+            </div>
+        </div>
+    </div>
+</div>
+

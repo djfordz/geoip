@@ -1,0 +1,27 @@
+{
+  "name": "dford/geoip",
+  "description": "Trellis Test",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "David Ford",
+      "email": "djfordz@gmail.com",
+      "homepage": "http://magefoo.com"
+    }
+  ],
+  "require": {
+    "php": "~7.0.13|~7.1.0",
+    "magento/module-ui": "101.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Vendor\\Module\\": ""
+    }
+  }
+}

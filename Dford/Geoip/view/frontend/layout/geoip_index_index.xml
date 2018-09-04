@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Customer Login History</title>
+        <css src="Dford_Geoip::css/backend.css" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="geoip_grid" />
+            <block class="Magento\Framework\View\Element\Template" name="customer_login_history" template="Dford_Geoip::login_history.phtml">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">Dford\Geoip\ViewModel\LoginHistory</argument>
+                </arguments>
+            </block>
+            
+        </referenceContainer>
+    </body>
+</page>
