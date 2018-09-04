@@ -1,7 +1,7 @@
 {
   "name": "dford/geoip",
   "description": "Trellis Test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "David Ford",
@@ -21,7 +21,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Dford\\Geoip\\": ""
+      "Dford\\Geoip\\": "app/code/Dford/Geoip/"
     }
   }
 }
