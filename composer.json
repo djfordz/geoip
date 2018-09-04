@@ -21,7 +21,7 @@
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Dford\\Geoip\\": "app/code/Dford/Geoip/"
+      "Dford\\Geoip\\": ""
     }
   }
 }
