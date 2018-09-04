@@ -65,3 +65,6 @@ bin/magento setup:static-content:deploy
 # all modes
 bin/magento cache:flush
 ```
+
+<img src="https://github.com/djfordz/geoip/blob/master/preview.png" />
+<img src="https://github.com/djfordz/geoip/blob/master/preview2.png" />
