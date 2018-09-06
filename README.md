@@ -2,6 +2,16 @@ Test for Trellis.
 
 *NOTE: Since I am using a ViewModel this is not backward compatible, must use Magento V2.2 or above!*
 
+## Attributions
+
+*For Grid CSS and Front controller*
+https://github.com/belvg-public/ui-grid
+
+*For adding plugin to ensure customer id is available even when cache is enabled.*
+https://ranasohel.me/2017/05/05/how-to-get-customer-id-from-block-when-full-page-cache-enable-in-magento-2/
+
+## Installation
+
 Two ways to install, either install code manually in 
 
 `app/code/Dford/Geoip`
@@ -67,14 +77,6 @@ bin/magento setup:static-content:deploy
 # all modes
 bin/magento cache:flush
 ```
-
-## Attributions
-
-*For Grid CSS and Front controller*
-https://github.com/belvg-public/ui-grid
-
-*For adding plugin to ensure customer id is available even when cache is enabled.*
-https://ranasohel.me/2017/05/05/how-to-get-customer-id-from-block-when-full-page-cache-enable-in-magento-2/
 
 ## Preview Images
 
