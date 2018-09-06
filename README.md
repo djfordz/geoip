@@ -70,8 +70,13 @@ bin/magento cache:flush
 
 ## Attributions
 
-*For Admin Grid CSS and front controller*
+*For Grid CSS and Front controller*
 https://github.com/belvg-public/ui-grid
+
+*For adding plugin to ensure customer id is available even when cache is enabled.*
+https://ranasohel.me/2017/05/05/how-to-get-customer-id-from-block-when-full-page-cache-enable-in-magento-2/
+
+## Preview Images
 
 <img src="https://github.com/djfordz/geoip/blob/master/preview.png" />
 <img src="https://github.com/djfordz/geoip/blob/master/preview2.png" />

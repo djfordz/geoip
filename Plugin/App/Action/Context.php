@@ -4,6 +4,10 @@ namespace Dford\Geoip\Plugin\App\Action;
 
 use Dford\Geoip\Model\Customer\Context as CustomerSessionContext;
 
+/**
+ * Attribution
+ * https://ranasohel.me/2017/05/05/how-to-get-customer-id-from-block-when-full-page-cache-enable-in-magento-2/
+ */
 class Context
 {
     /**

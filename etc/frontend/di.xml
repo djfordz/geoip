@@ -13,6 +13,7 @@
             </argument>
         </arguments>
     </type> 
+    <!-- Attribution https://ranasohel.me/2017/05/05/how-to-get-customer-id-from-block-when-full-page-cache-enable-in-magento-2/-->
     <type name="Magento\Framework\App\Action\AbstractAction">
          <plugin name="dford_geoip_app_action_dispatchController_context_plugin" type="Dford\Geoip\Plugin\App\Action\Context" sortOrder="15"/>
     </type>
