@@ -5,6 +5,12 @@ namespace Dford\Geoip\Controller\Index;
 use Magento\Framework\View\Element\UiComponentInterface;
 use Magento\Framework\Controller\ResultFactory;
 
+/**
+ * Attribution for Controller
+ * https://github.com/belvg-public/ui-grid
+ *
+ * Add necessary components to allow admin grid to display properly on frontend.
+ */
 class Index extends \Dford\Geoip\Controller\LoginHistoryAbstract
 {
     protected $customerSession;
