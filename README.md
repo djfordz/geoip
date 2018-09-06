@@ -68,7 +68,7 @@ bin/magento setup:static-content:deploy
 bin/magento cache:flush
 ```
 
-##Attributions
+## Attributions
 
 *For Admin Grid CSS and front controller*
 https://github.com/belvg-public/ui-grid
